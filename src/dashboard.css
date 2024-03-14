@@ -1,0 +1,35 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-between; /* Optional: Adds space between the divs */
+}
+
+.sidebar{
+    width: 20%;
+    background-color: #145DA0;
+    height: 100vh;
+    padding: 20px;
+}
+.main-content{
+    width: 80%;
+    background-color: #B1D4E0;
+    padding: 20px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.styled-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2E8BC0;
+    color: white;
+}
