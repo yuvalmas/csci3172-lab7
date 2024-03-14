@@ -7,15 +7,12 @@ import Dashboard from "./Dashboard";
 function App() {
 
   const [user, setUser] = useState(null);
-  const [error, setError] = useState('');
 
   const handleFormSubmit = ({isValid, data}) => {
     console.log(data);
     if(isValid){
       setUser(data);
-      setError('');
     }else{
-      setError('Please fill all the fields');
       setUser(null);
     }
   };
