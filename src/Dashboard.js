@@ -13,11 +13,14 @@ const Dashboard = () => {
             <div className="main-content">
                 <h2>Dashboard</h2>
                 <table className="styled-table">
+                    <thead>
                     <tr>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Email</th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td>John</td>
                         <td>Doe</td>
@@ -46,6 +49,7 @@ const Dashboard = () => {
                             <a href="mailto:">AnjaRavendale@dal.ca</a>
                         </td>
                     </tr>
+                    </tbody>
                 </table>
 
             </div>
